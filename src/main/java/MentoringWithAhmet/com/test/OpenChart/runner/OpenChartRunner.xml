@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Regression Suite">
+    <test name="Blaze Test">
+
+        <parameter name="firstName" value="Kuan"> </parameter>
+        <parameter name="lastName" value="Abdy"> </parameter>
+        <parameter name="email" value="kuan@techtorial"> </parameter>
+        <parameter name="telephone" value="1234532"> </parameter>
+        <classes>
+
+            <class name="MentoringWithAhmet.com.test.OpenChart.tests.MainTest"> </class>
+            <class name="MentoringWithAhmet.com.test.OpenChart.tests.CustomerTest"> </class>
+
+
+        </classes>
+    </test>
+
+</suite>
