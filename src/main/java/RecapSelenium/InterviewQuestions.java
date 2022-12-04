@@ -33,7 +33,7 @@ public class InterviewQuestions {
        -->ID             -->className               -->Name                       -->TagName
        -->LinkText       -->PartialLinkText         -->CSS                        -->XPATH
 
-    5-How do you handle the Dynamic Elements(CVS) ************
+    5-How do you handle Dynamic Elements(CVS) ************
 
         In my project I faced many dynamic elements, and I used different ways to handle with:
 

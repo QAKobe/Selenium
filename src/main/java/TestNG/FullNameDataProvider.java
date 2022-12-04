@@ -8,6 +8,7 @@ public class FullNameDataProvider {
     public Object[][] getData() {
 
         return new Object[][]{
+
                 {"Mehmet", "312","34334"},
                 {"Malika", "789","767676"},
                 {"Damla", "434","45434"},

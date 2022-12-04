@@ -21,9 +21,9 @@ public class TestBase {
 
     @AfterMethod
     public void tearDown(ITestResult result){
-        if (result.isSuccess()){
-            BrowserUtils.getScreenShot(driver, "OpenChart");
-        }
+//        if (result.isSuccess()){
+//            BrowserUtils.getScreenShot(driver, "OpenChart");
+//        }
         //driver.quit();
     }
 

@@ -4,6 +4,8 @@ import com.test.etsy.page.MainPage;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
+import java.util.NoSuchElementException;
+
 public class MainTest extends TestBase{
 
     @Parameters({"key", "word1", "word2", "word3"})
@@ -12,6 +14,7 @@ public class MainTest extends TestBase{
         MainPage mainPage = new MainPage(driver);
         mainPage.search(key);
         mainPage.validateHeaders(word1, word2, word3);
+
     }
 
 }

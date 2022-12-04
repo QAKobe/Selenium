@@ -24,9 +24,9 @@ public class TestBase {
 
     @AfterMethod
     public void tearDown(ITestResult result)  {
-//        if (!result.isSuccess()){
-//            BrowserUtils.getScreenShot(driver, "BlazeScreenShot");
-//        }
+        if (!result.isSuccess()){
+            BrowserUtils.getScreenShot(driver, "BlazeScreenShot");
+        }
 
        driver.quit();
     }

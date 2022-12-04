@@ -58,6 +58,7 @@ public class JavaScriptMethods {
         WebElement studentLogin = driver.findElement(By.xpath("//div[@class='navigation hidden-xs']//a[.='Student login']"));
         JavascriptExecutor js = (JavascriptExecutor) driver;
         js.executeScript("arguments[0].click()", studentLogin);
+
     }
 
     //This is the most common interview technical and verbal question.******************
